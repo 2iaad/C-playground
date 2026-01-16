@@ -1,6 +1,6 @@
 # C-playground
 
-Collection of C exercises and classic 42-style projects (games, libs, and utilities).
+Collection of C projects i have built during my 42-common-core (games, libs, and utilities).
 
 ## Contents
 
