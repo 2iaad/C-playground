@@ -17,6 +17,40 @@ Collection of C exercises and classic 42-style projects (games, libs, and utilit
   - Unix pipe (pipex) — [UnixPipe/Makefile](UnixPipe/Makefile)
 - Logic exercises with statements and solutions — [LogicExercises/README.md](LogicExercises/README.md)
 
+## Project Summaries
+
+- 2D-game (so_long):
+  A simple 2D tile-based game built with MinilibX.
+  Parses `.ber` maps, validates paths, renders sprites, and lets the player collect items to reach the exit.
+
+- 3D-game (cub3D):
+  A ray-casting engine inspired by Wolfenstein 3D using MLX42/GLFW.
+  Parses `.cub` maps and textures, casts rays to render walls, and supports player movement and rotation.
+
+- DiningPhilosophers:
+  Concurrency exercise simulating philosophers eating and thinking with threads and mutexes.
+  Focuses on deadlock avoidance, timing accuracy, and synchronized, thread-safe logging.
+
+- LibC (libft):
+  A custom standard C library reimplementation.
+  Provides string, memory, and linked-list utilities compiled into `libft.a`.
+
+- MyPrintf:
+  A minimal `printf` implementation supporting common format specifiers.
+  Handles characters, strings, integers, hex, pointers, and `%`; built as `libftprintf.a`.
+
+- StackSorter (push_swap):
+  Sorts integers using two stacks and a constrained set of operations.
+  Implements move generation, cost evaluation, and optimized strategies to minimize operations.
+
+- UnixPipe (pipex):
+  Recreates shell piping between commands with input/output redirections.
+  Manages `fork/exec`, file descriptors, and pipes across chained commands.
+
+- LogicExercises:
+  Bite-sized C problems emphasizing core logic and fundamentals.
+  Each exercise is standalone with a clear statement and a minimal solution.
+
 ## Build
 
 Each subproject has its own Makefile. Typical flow:
