@@ -1,6 +1,12 @@
+<div align='center'>
+
 # C-playground
 
 Collection of C projects i have built during my 42-common-core (games, libs, and utilities).
+
+  <!-- <img src='https://42.fr/wp-content/uploads/2021/06/Group-8.png' width=450> -->
+  <img src='https://algo-pi.com/wp-content/uploads/2024/08/1688275415052.png' width=500>
+</div>
 
 ## Contents
 
